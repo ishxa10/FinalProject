@@ -1,5 +1,5 @@
+CollisionShape2D
 StaticBody2D
 ColorRect
-CollisionShape2D
 ColorPicker
 CharacterBody2D
