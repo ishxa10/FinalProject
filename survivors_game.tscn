@@ -8,11 +8,14 @@
 y_sort_enabled = true
 position = Vector2(906, 544)
 
-[node name="ColorRect" type="ColorRect" parent="."]
-offset_left = -928.0
-offset_top = -575.0
-offset_right = 1059.0
-offset_bottom = 579.0
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -30
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_left = -22.0
+offset_top = -31.0
+offset_right = 1965.0
+offset_bottom = 1123.0
 
 [node name="Player" parent="." instance=ExtResource("1_04xkf")]
 
