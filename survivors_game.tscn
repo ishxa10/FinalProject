@@ -20,7 +20,7 @@ offset_bottom = 1123.0
 [node name="Player" parent="." instance=ExtResource("1_04xkf")]
 
 [node name="Mob" parent="." instance=ExtResource("2_7tejb")]
-position = Vector2(-246, -162)
+position = Vector2(-296, -202)
 
 [node name="Mob2" parent="." instance=ExtResource("2_7tejb")]
 position = Vector2(180, -275)
@@ -29,7 +29,7 @@ position = Vector2(180, -275)
 position = Vector2(448, -23)
 
 [node name="Mob4" parent="." instance=ExtResource("2_7tejb")]
-position = Vector2(31, 203)
+position = Vector2(155, 326)
 
 [node name="PineTree" parent="." instance=ExtResource("2_sv5aq")]
 position = Vector2(-582, -133)
