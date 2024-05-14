@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://8gw4nvvjp4ke"]
+[gd_scene load_steps=4 format=3 uid="uid://e46agbm2wuse"]
 
+[ext_resource type="Script" path="res://gun.gd" id="1_350un"]
 [ext_resource type="Texture2D" uid="uid://cswb5do8rrj7q" path="res://pistol/pistol.png" id="1_helyn"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_582le"]
 radius = 273.002
 
 [node name="Gun" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_350un")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2, -3)
