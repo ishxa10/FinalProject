@@ -1,3 +1,7 @@
+Button
+VBoxContainer
+CenterContainer
+MarginContainer
 Label
 ColorRect
 CanvasLayer
@@ -8,7 +12,3 @@ ProgressBar
 CollisionShape2D
 Area2D
 Marker2D
-Camera2D
-CharacterBody2D
-StaticBody2D
-ColorPicker
