@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://d2basyxktk5cs"]
+
+[ext_resource type="Texture2D" uid="uid://cef1h8d64p0v4" path="res://ice tileset.png" id="1_x8ehk"]
+
+[node name="Background" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1936.0
+offset_bottom = 1088.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1005.5, 598)
+scale = Vector2(7.82422, 4.66406)
+texture = ExtResource("1_x8ehk")
