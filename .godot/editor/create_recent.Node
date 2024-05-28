@@ -1,3 +1,4 @@
+AnimationPlayer
 CanvasGroup
 CollisionShape2D
 Area2D
@@ -12,4 +13,3 @@ CanvasLayer
 Button
 VBoxContainer
 CenterContainer
-MarginContainer
