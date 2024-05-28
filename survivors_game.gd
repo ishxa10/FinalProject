@@ -26,7 +26,7 @@ func _on_player_health_depleted():
 			death_sound.play()
 			print("Death Sound should play")
 		game_over_screen.visible = true  # Make the game over screen visible
-		game_over_timer.start(1)  # Start the timer with a 1-second delay
+		game_over_timer.start(1.5)  # Start the timer with a 1-second delay
 		print("Game Over Timer started")
 	else:
 		print("Game over already triggered, skipping")
