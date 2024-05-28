@@ -1,4 +1,6 @@
+Timer
 AudioStreamPlayer2D
+AudioStreamPlayer
 AudioListener2D
 Sprite2D
 ColorRect
@@ -9,7 +11,4 @@ VBoxContainer
 CenterContainer
 MarginContainer
 Label
-Timer
 PathFollow2D
-Path2D
-ProgressBar

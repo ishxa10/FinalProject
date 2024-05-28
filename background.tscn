@@ -1,6 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://d2basyxktk5cs"]
+[gd_scene load_steps=2 format=3 uid="uid://b1nnkvq01toy3"]
 
-[ext_resource type="Texture2D" uid="uid://cef1h8d64p0v4" path="res://ice tileset.png" id="1_x8ehk"]
+[ext_resource type="Texture2D" path="res://ice tileset.png" id="1_x8ehk"]
 
 [node name="Background" type="Node2D"]
 
