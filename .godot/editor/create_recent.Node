@@ -1,3 +1,6 @@
+CanvasGroup
+CollisionShape2D
+Area2D
 Timer
 AudioStreamPlayer2D
 AudioStreamPlayer
@@ -10,5 +13,3 @@ Button
 VBoxContainer
 CenterContainer
 MarginContainer
-Label
-PathFollow2D
