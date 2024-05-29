@@ -1,3 +1,6 @@
+res://chest.tscn
+res://chest/group_outline.gdshader
+res://chest.gd
 res://player.tscn
 res://characters/happy_boo/happy_boo.tscn
 res://survivors_game.tscn
@@ -6,7 +9,3 @@ res://gun.tscn
 res://bullet.tscn
 res://start_menu.tscn
 res://background.tscn
-res://survivors_game.gd
-res://chest.tscn
-res://chest/group_outline.gdshader
-res://chest.gd
