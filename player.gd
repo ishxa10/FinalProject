@@ -22,3 +22,4 @@ func _physics_process(delta):
 		if health <= 0.0:
 			health_depleted.emit()
 			
+
