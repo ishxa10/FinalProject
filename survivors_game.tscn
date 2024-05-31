@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://survivors_game.gd" id="1_431ra"]
 [ext_resource type="PackedScene" uid="uid://bkp22l27vfni4" path="res://pine_tree.tscn" id="2_sv5aq"]
 [ext_resource type="AudioStream" uid="uid://bnp0xy84mfjea" path="res://game_over_1.mp3" id="4_4bwlw"]
-[ext_resource type="PackedScene" path="res://vampirechest.tscn" id="5_wpg28"]
+[ext_resource type="PackedScene" uid="uid://3lk8oqlbxjje" path="res://vampirechest.tscn" id="5_wpg28"]
 
 [sub_resource type="Curve2D" id="Curve2D_it11d"]
 _data = {
@@ -29,6 +29,7 @@ offset_left = -22.0
 offset_top = -31.0
 offset_right = 1965.0
 offset_bottom = 1123.0
+mouse_filter = 2
 
 [node name="Player" parent="." instance=ExtResource("1_04xkf")]
 
@@ -108,6 +109,12 @@ one_shot = true
 
 [node name="VampireChest" parent="." instance=ExtResource("5_wpg28")]
 position = Vector2(186, 216)
+
+[node name="VampireChest3" parent="." instance=ExtResource("5_wpg28")]
+position = Vector2(260, -358)
+
+[node name="VampireChest2" parent="." instance=ExtResource("5_wpg28")]
+position = Vector2(-512, 28)
 
 [connection signal="health_depleted" from="Player" to="." method="_on_player_health_depleted"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

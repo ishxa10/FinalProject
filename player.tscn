@@ -37,6 +37,9 @@ shape = SubResource("CircleShape2D_ydomc")
 
 [node name="Gun" parent="." instance=ExtResource("3_xo8o3")]
 
+[node name="Gun2" parent="." instance=ExtResource("3_xo8o3")]
+position = Vector2(-23, -61)
+
 [node name="HurtBox" type="Area2D" parent="."]
 unique_name_in_owner = true
 collision_layer = 0
