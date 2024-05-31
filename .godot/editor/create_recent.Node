@@ -1,5 +1,7 @@
-Label
-Panel
+AnimationPlayer
+CanvasGroup
+CollisionShape2D
+Area2D
 Timer
 AudioStreamPlayer2D
 AudioStreamPlayer
@@ -11,4 +13,3 @@ CanvasLayer
 Button
 VBoxContainer
 CenterContainer
-MarginContainer
