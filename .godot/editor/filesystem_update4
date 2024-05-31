@@ -1,8 +1,7 @@
-res://survivors_game.tscn
-res://chest/group_outline.gdshader
-res://chest.gd
 res://player.tscn
+res://chest/group_outline.gdshader
 res://characters/happy_boo/happy_boo.tscn
+res://survivors_game.tscn
 res://characters/slime/slime.tscn
 res://gun.tscn
 res://bullet.tscn
@@ -12,3 +11,4 @@ res://vampirechest.tscn
 res://lessons/assets/sparks_particles.tscn
 res://lessons/items/apple.tscn
 res://lessons/chest/chest.tscn
+res://chest.tscn

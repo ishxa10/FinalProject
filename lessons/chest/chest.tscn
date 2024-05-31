@@ -1,13 +1,13 @@
 [gd_scene load_steps=14 format=3 uid="uid://d26xdd5i7xn3j"]
 
 [ext_resource type="Shader" path="res://lessons/chest/group_outline.gdshader" id="1_20jsn"]
-[ext_resource type="Texture2D" uid="uid://c3hwsm5ugp8qw" path="res://lessons/chest/bottom.png" id="1_25e52"]
+[ext_resource type="Texture2D" uid="uid://c3hwsm5ugp8qw" path="res://chest/bottom.png" id="1_25e52"]
 [ext_resource type="Script" path="res://lessons/chest/chest.gd" id="1_wlira"]
-[ext_resource type="Texture2D" uid="uid://bnem1cahhoxdk" path="res://lessons/chest/top.png" id="2_dpdnw"]
-[ext_resource type="PackedScene" uid="uid://0i1g0cunmseb" path="res://lessons/items/apple.tscn" id="2_q521y"]
-[ext_resource type="Texture2D" uid="uid://bu2jin246nel5" path="res://lessons/chest/lock.png" id="3_it6wm"]
-[ext_resource type="PackedScene" uid="uid://ctqyr0ufyoktk" path="res://lessons/items/key.tscn" id="3_uqxel"]
-[ext_resource type="PackedScene" uid="uid://hdxqgspfcaur" path="res://lessons/items/potion.tscn" id="4_3vulk"]
+[ext_resource type="Texture2D" uid="uid://bnem1cahhoxdk" path="res://chest/top.png" id="2_dpdnw"]
+[ext_resource type="PackedScene" uid="uid://0i1g0cunmseb" path="res://chest/apple.tscn" id="2_q521y"]
+[ext_resource type="Texture2D" uid="uid://bu2jin246nel5" path="res://chest/lock.png" id="3_it6wm"]
+[ext_resource type="PackedScene" uid="uid://ctqyr0ufyoktk" path="res://chest/key.tscn" id="3_uqxel"]
+[ext_resource type="PackedScene" uid="uid://hdxqgspfcaur" path="res://chest/potion.tscn" id="4_3vulk"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_8s8kp"]
 size = Vector2(100, 78)
